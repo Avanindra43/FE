@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Band</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navBar {
+      width: 100%;
+      background-color: black;
+      position: sticky;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 15px;
+      top: 0;
+      z-index: 1;
+      color: white;
+      justify-content: space-between;
+    }
+    .navBar div {
+      width: auto;
+      color: white;
+      font-family: "Lato", sans-serif;
+      padding: 12px 24px;
+      font-size: 15px;
+      position: inherit;
+      cursor: pointer;
+    }
+    a {
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a:hover {
+      background-color: #cccccc;
+      color: black;
+    }
+
+    .container {
+      max-width: 2000px;
+      width: 100%;
+    }
+    .container img {
+      width: 100%;
+    }
+
+    .sub {
+      font-size: 15px;
+      justify-content: center;
+      width: 100%;
+      position: absolute;
+      color: #ffff;
+      padding: 32px 16px;
+      height: 98px;
+    }
+  </style>
+  <body>
+    <div class="navBar">
+      <div>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Members</a>
+        <a href="">Contact</a>
+      </div>
+      <div>
+        <a href="">Search</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="Hero">
+        <div class="container img">
+          <img src="https://www.w3schools.com/w3images/la.jpg" alt="" />
+          <div class="sub">
+            <h3>Los Angeles</h3>
+            <b>The atmosphere in Los Angeles is amazing</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
